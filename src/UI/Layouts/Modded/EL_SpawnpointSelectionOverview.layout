@@ -1,0 +1,100 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ Clipping True
+ {
+  HorizontalLayoutWidgetClass "{5996E94E0919B202}" {
+   Name "HorizontalLayout0"
+   Slot FrameWidgetSlot "{5996E94E0919B21B}" {
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX 1920
+    OffsetRight -1920
+    SizeY 104
+    OffsetBottom -104
+   }
+   {
+    TextWidgetClass "{5996E94E05DAFA55}" {
+     Name "Text0"
+     Slot LayoutSlot "{5996E94E05DAFAB4}" {
+      SizeMode Fill
+     }
+     Text "Spawn selection"
+     "Font Size" 65
+     "Min Font Size" 65
+     "Horizontal Alignment" Center
+     "Vertical Alignment" Center
+    }
+   }
+  }
+  VerticalLayoutWidgetClass "{5996E94E2EFE1FD3}" {
+   Name "VerticalLayout1"
+   Slot FrameWidgetSlot "{5996E94E2EFE0032}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -288
+    OffsetLeft -288
+    PositionY -300
+    OffsetTop -300
+    SizeX 568
+    OffsetRight -280
+    SizeY 584
+    OffsetBottom -284
+   }
+   "Fill Origin" Center
+   {
+    XComboBoxWidgetClass "{5996EB2C7B206CD8}" {
+     Name "XComboBox0"
+     Slot LayoutSlot "{5996EB2C7B206D36}" {
+      SizeMode Fill
+     }
+     "Font Size" 65
+    }
+    ButtonWidgetClass "{5996EB2D060E854B}" {
+     Name "Button0"
+     Slot LayoutSlot "{5996EB2D060E85A4}" {
+      SizeMode Fill
+      FillWeight 0.2
+     }
+     components {
+      SCR_ButtonComponent "{5996EB2D69C5E502}" {
+      }
+     }
+     {
+      TextWidgetClass "{5996EB2D215AB84C}" {
+       Name "Text0"
+       Slot ButtonWidgetSlot "{5996EB2D215AB8A6}" {
+        HorizontalAlign 3
+        VerticalAlign 3
+       }
+       Color 0 0 0 1
+       Text "Spawn"
+       "Font Size" 50
+       "Min Font Size" 50
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+     }
+    }
+   }
+  }
+  ImageWidgetClass "{5992F3E115AA1672}" {
+   Name "BackgroundImage"
+   Slot FrameWidgetSlot "{5996F8E54A2FB507}" {
+    Anchor 0 0 1 1
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX 0
+    OffsetRight 0
+    SizeY 0
+    OffsetBottom 0
+   }
+   "Z Order" -1
+   Texture "{75455009AFED376B}UI/Textures/Workshop/AddonThumbnails/workshop_loading_UI.edds"
+   Image ""
+   Size 1920 1080
+  }
+ }
+}

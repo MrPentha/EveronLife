@@ -1,6 +1,9 @@
 SCR_ChimeraCharacter : "{7A9EE19AB67B298B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_base.et" {
  ID "520EC961A090B1EE"
  components {
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{BC5061EBB3284158}Prefabs/Weapons/Handguns/M9/Handgun_M9_empty.et"
   }
@@ -21,6 +24,19 @@ SCR_ChimeraCharacter : "{7A9EE19AB67B298B}Prefabs/Characters/Factions/INDFOR/FIA
   }
   CharacterIdentityComponent "{5584CBC63E092DBC}" {
    Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{C1F80EE178D948D6}Prefabs/Characters/Heads/Head_White_08.et"
+     Body "{32B5FE236D152368}Prefabs/Characters/Basebody/CharacterBasebody_Asian_02.et"
+     BodyMeshesConfig MeshConfig "{56E6D9455DF31562}" {
+      SubmeshesOfBody {
+       IdentityBodyMesh "{5584CBC774E4D721}" {
+        HealthyVersion "Head_wound"
+       }
+      }
+     }
+    }
+   }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
@@ -28,7 +44,7 @@ SCR_ChimeraCharacter : "{7A9EE19AB67B298B}Prefabs/Characters/Factions/INDFOR/FIA
      PrefabsToSpawn +{
      }
     }
-    ItemsInitConfigurationItem "{59695CB9178ECE02}" {
+    ItemsInitConfigurationItem "{5988BD31DF6EC0E8}" {
      TargetStorage "Prefabs/Characters/Uniforms/Jacket_M70.et"
      TargetPurpose 64
      PrefabsToSpawn {

@@ -4,5 +4,13 @@ SCR_VehicleSpawn TestVehicleSpawner {
  m_rnPrefab "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et"
  respawnDelay 0
 }
-SCR_SpawnPoint : "{285FB4BFAE87D26F}Prefabs/MP/Spawning/SpawnPoint_LIFE.et" {
+$grp SCR_SpawnPoint : "{285FB4BFAE87D26F}Prefabs/MP/Spawning/SpawnPoint_LIFE.et" {
+ {
+ }
+ {
+  coords 95.183 0.001 119.568
+  m_Info SCR_UIInfo "{596559E5AD4DDBF7}" {
+   Name "Spawn2"
+  }
+ }
 }

@@ -1,0 +1,479 @@
+FrameWidgetClass {
+ Name "CharacterSelectionOverviewRoot"
+ {
+  VerticalLayoutWidgetClass "{598A81928F5A55FF}" {
+   Name "VerticalLayout0"
+   Slot FrameWidgetSlot "{598A81928F5A55AA}" {
+    Anchor 0 0.23 1 0.748
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX 0
+    OffsetRight 0
+    SizeY 0
+    OffsetBottom 0
+   }
+   "Z Order" 1
+   "Fill Origin" Center
+   {
+    HorizontalLayoutWidgetClass "{598304BD8C7A7F1C}" {
+     Name "HorizontalLayout0"
+     Slot LayoutSlot "{598A81929EFCE9CA}" {
+      SizeMode Fill
+     }
+     {
+      ButtonWidgetClass "{599286F258034401}" {
+       Name "Character2"
+       Slot LayoutSlot "{59833968A1DB69F5}" {
+        Padding 50 0 30 0
+        SizeMode Fill
+       }
+       "Is Enabled" 0
+       Color 0 0 0 0.51
+       components {
+        SCR_ButtonComponent "{59850E7A2909A18A}" {
+         m_fDisabledOpacity 0.3
+        }
+       }
+       {
+        SizeLayoutWidgetClass "{599286F258034400}" {
+         Name "SizeLayout0"
+         Slot ButtonWidgetSlot "{5983396D8827B1A8}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+         }
+         {
+          OverlayWidgetClass "{599286F258034407}" {
+           Name "Overlay0"
+           Slot AlignableSlot "{5983396D9E3193C6}" {
+            HorizontalAlign 3
+            VerticalAlign 3
+           }
+           "Z Order" 3
+           {
+            ItemPreviewWidgetClass "{599286F258034406}" {
+             Name "ItemPreview0"
+             Slot OverlayWidgetSlot "{598A819267190C06}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+             }
+             "Z Order" 3
+             refresh 255
+             "Blend mode" Blend
+            }
+            PanelWidgetClass "{599286F258034405}" {
+             Name "Panel0"
+             Slot OverlayWidgetSlot "{599286F43CCD0EDF}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+              Padding 0 400 0 100
+             }
+             "Z Order" 4
+             "Is Visible" 0
+             style magazine_big_progress
+             {
+              TextWidgetClass "{599286F258034404}" {
+               Name "Text0"
+               Slot FrameWidgetSlot "{599286F435CFDED1}" {
+                Anchor 0 0 1 1
+                PositionX 0
+                OffsetLeft 0
+                PositionY 0
+                OffsetTop 0
+                SizeX 1
+                OffsetRight -1
+                SizeY -3.44
+                OffsetBottom 3.44
+               }
+               "Z Order" 4
+               Color 0 0 0 1
+               Text ""
+               "Font Size" 30
+               "Horizontal Alignment" Center
+               "Vertical Alignment" Center
+               FontProperties FontProperties "{599286F33A030D23}" {
+                Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+                Italic 1
+                Bold 1
+               }
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      ButtonWidgetClass "{599286F241B1B5FE}" {
+       Name "Character1"
+       Slot LayoutSlot "{59833968A1DB69F5}" {
+        Padding 30 0 30 0
+        SizeMode Fill
+       }
+       "Is Enabled" 0
+       Color 0 0 0 0.51
+       components {
+        SCR_ButtonComponent "{59850E7A2909A18A}" {
+         m_fDisabledOpacity 0.3
+        }
+       }
+       {
+        SizeLayoutWidgetClass "{599286F241B1B5FD}" {
+         Name "SizeLayout0"
+         Slot ButtonWidgetSlot "{5983396D8827B1A8}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+         }
+         {
+          OverlayWidgetClass "{599286F241B1B5F3}" {
+           Name "Overlay0"
+           Slot AlignableSlot "{5983396D9E3193C6}" {
+            HorizontalAlign 3
+            VerticalAlign 3
+           }
+           "Z Order" 3
+           {
+            ItemPreviewWidgetClass "{599286F241B1B5F2}" {
+             Name "ItemPreview0"
+             Slot OverlayWidgetSlot "{598A819267190C06}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+             }
+             "Z Order" 3
+             refresh 255
+             "Blend mode" Blend
+            }
+            PanelWidgetClass "{599286F241B1B5F1}" {
+             Name "Panel0"
+             Slot OverlayWidgetSlot "{599286F43CCD0EDF}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+              Padding 0 400 0 100
+             }
+             "Z Order" 4
+             "Is Visible" 0
+             style magazine_big_progress
+             {
+              TextWidgetClass "{599286F241B1B5F0}" {
+               Name "Text0"
+               Slot FrameWidgetSlot "{599286F435CFDED1}" {
+                Anchor 0 0 1 1
+                PositionX 0
+                OffsetLeft 0
+                PositionY 0
+                OffsetTop 0
+                SizeX 1
+                OffsetRight -1
+                SizeY -3.44
+                OffsetBottom 3.44
+               }
+               "Z Order" 4
+               Color 0 0 0 1
+               Text ""
+               "Font Size" 30
+               "Horizontal Alignment" Center
+               "Vertical Alignment" Center
+               FontProperties FontProperties "{599286F33A030D23}" {
+                Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+                Italic 1
+                Bold 1
+               }
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      ButtonWidgetClass "{598A914E0CF178B6}" {
+       Name "Character0"
+       Slot LayoutSlot "{59833968A1DB69F5}" {
+        Padding 30 0 30 0
+        SizeMode Fill
+       }
+       "Is Enabled" 0
+       Color 0 0 0 0.51
+       components {
+        SCR_ButtonComponent "{59850E7A2909A18A}" {
+         m_fDisabledOpacity 0.3
+        }
+       }
+       {
+        SizeLayoutWidgetClass "{598A914E0CF178B7}" {
+         Name "SizeLayout0"
+         Slot ButtonWidgetSlot "{5983396D8827B1A8}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+         }
+         {
+          OverlayWidgetClass "{598A914E0CF178B5}" {
+           Name "Overlay0"
+           Slot AlignableSlot "{5983396D9E3193C6}" {
+            HorizontalAlign 3
+            VerticalAlign 3
+           }
+           "Z Order" 3
+           {
+            ItemPreviewWidgetClass "{598A914E0CF178B3}" {
+             Name "ItemPreview0"
+             Slot OverlayWidgetSlot "{598A819267190C06}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+             }
+             "Z Order" 3
+             refresh 255
+             "Blend mode" Blend
+            }
+            PanelWidgetClass "{599286F43CCD0F34}" {
+             Name "Panel0"
+             Slot OverlayWidgetSlot "{599286F43CCD0EDF}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+              Padding 0 400 0 100
+             }
+             "Z Order" 4
+             "Is Visible" 0
+             style magazine_big_progress
+             {
+              TextWidgetClass "{599286F435CFDF0A}" {
+               Name "Text0"
+               Slot FrameWidgetSlot "{599286F435CFDED1}" {
+                Anchor 0 0 1 1
+                PositionX 0
+                OffsetLeft 0
+                PositionY 0
+                OffsetTop 0
+                SizeX 1
+                OffsetRight -1
+                SizeY -3.44
+                OffsetBottom 3.44
+               }
+               "Z Order" 4
+               Color 0 0 0 1
+               Text ""
+               "Font Size" 30
+               "Horizontal Alignment" Center
+               "Vertical Alignment" Center
+               FontProperties FontProperties "{599286F33A030D23}" {
+                Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+                Italic 1
+                Bold 1
+               }
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      ButtonWidgetClass "{598A914EE1C96A26}" {
+       Name "AddCharacterButton2"
+       Slot LayoutSlot "{598A914E7FB4D682}" {
+        Padding 30 0 50 0
+        SizeMode Fill
+       }
+       components {
+        SCR_ButtonComponent "{59850E7A2909A18A}" {
+        }
+       }
+       style debugUI
+       {
+        SizeLayoutWidgetClass "{598A914EE1C96A27}" {
+         Name "SizeLayout0"
+         Slot ButtonWidgetSlot "{5983396D8827B1A8}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+         }
+         {
+          OverlayWidgetClass "{598A914EE1C96A24}" {
+           Name "Overlay0"
+           Slot AlignableSlot "{5983396D9E3193C6}" {
+            HorizontalAlign 3
+            VerticalAlign 3
+           }
+           "Z Order" 3
+           {
+            TextWidgetClass "{598A914EE1C96A25}" {
+             Name "Text0"
+             Slot OverlayWidgetSlot "{5983396D9A0B1A07}" {
+              Padding 30 300 30 0
+             }
+             "Z Order" 3
+             Color 0 0 0 1
+             Text "Add Character"
+             "Font Size" 50
+             "Horizontal Alignment" Center
+             "Vertical Alignment" Center
+             FontProperties FontProperties "{5983396D52AF9556}" {
+              Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+             }
+            }
+            ImageWidgetClass "{598A914E5325E84A}" {
+             Name "Image0"
+             Slot OverlayWidgetSlot "{598A914E5325E9DB}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+             }
+             Texture "{C74BB9D7E182B679}UI/plus.edds"
+             Image ""
+             Size 1200 1440
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  ImageWidgetClass "{598304A119BAA823}" {
+   Name "BackgroundImage"
+   Slot FrameWidgetSlot "{598304BBAA0912D3}" {
+    Anchor 0 0 1 1
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX 0
+    OffsetRight 0
+    SizeY 0
+    OffsetBottom 0
+   }
+   Texture "{75455009AFED376B}UI/Textures/Workshop/AddonThumbnails/workshop_loading_UI.edds"
+   Image ""
+   Size 1920 1080
+  }
+  HorizontalLayoutWidgetClass "{598339686E9E2153}" {
+   Name "HorizontalLayout1"
+   Slot FrameWidgetSlot "{598339686E9E2101}" {
+    Anchor 0.096 0.081 0.904 0.146
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX 0
+    OffsetRight 0
+    SizeY 0
+    OffsetBottom 0
+   }
+   {
+    TextWidgetClass "{598339686395940D}" {
+     Name "Text0"
+     Slot LayoutSlot "{5983396863959BE9}" {
+      SizeMode Fill
+     }
+     Text "Character Selection"
+     "Font Size" 65
+     "Min Font Size" 65
+     "Horizontal Alignment" Center
+     "Vertical Alignment" Center
+     FontProperties FontProperties "{5983396EBE84537C}" {
+      Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+     }
+    }
+   }
+  }
+  HorizontalLayoutWidgetClass "{5983396E5B91CB6D}" {
+   Name "HorizontalLayout2"
+   Slot FrameWidgetSlot "{5983396E5B91CB5E}" {
+    Anchor 0.4 0.837 0.6 0.889
+    PositionX -168
+    OffsetLeft -168
+    PositionY 0
+    OffsetTop 0
+    SizeX 344
+    OffsetRight -176
+    SizeY 0
+    OffsetBottom 0
+   }
+   {
+    ButtonWidgetClass "{5983396FBBD6739A}" {
+     Name "JoinGameButton"
+     Slot LayoutSlot "{5983396FBBD67367}" {
+      SizeMode Fill
+     }
+     Color 1 1 1 0
+     components {
+      SCR_ButtonComponent "{5987214790E48387}" {
+      }
+     }
+     style debugUI
+     {
+      SizeLayoutWidgetClass "{5983396F8E41E369}" {
+       Name "SizeLayout0"
+       Slot ButtonWidgetSlot "{5983396F8E41E377}" {
+        HorizontalAlign 3
+        VerticalAlign 3
+       }
+       {
+        OverlayWidgetClass "{5983396F8A96F66B}" {
+         Name "Overlay0"
+         Slot AlignableSlot "{5983396F8A96F677}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+         }
+         {
+          TextWidgetClass "{5983396F81D74C27}" {
+           Name "Text0"
+           Slot OverlayWidgetSlot "{5983396F81D74C0C}" {
+            HorizontalAlign 3
+            VerticalAlign 3
+            Padding 0 0 0 0
+           }
+           Text "Join Server"
+           "Font Size" 50
+           "Horizontal Alignment" Center
+           "Vertical Alignment" Center
+          }
+          PanelWidgetClass "{5983396039AAA22F}" {
+           Name "Panel0"
+           Slot OverlayWidgetSlot "{598339601C95B9B1}" {
+            HorizontalAlign 3
+            VerticalAlign 3
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  HorizontalLayoutWidgetClass "{59850586DB697FE7}" {
+   Name "HorizontalLayout3"
+   Slot FrameWidgetSlot "{59850586DB697FC5}" {
+    Anchor 0.4 0.778 0.6 0.815
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX 0
+    OffsetRight 0
+    SizeY 0
+    OffsetBottom 0
+   }
+   {
+    TextWidgetClass "{598505862B9F6B2F}" {
+     Name "Text0"
+     Slot LayoutSlot "{598505862B9F6B09}" {
+      SizeMode Fill
+     }
+     Text "0/3"
+     "Font Size" 40
+     "Min Font Size" 40
+     "Horizontal Alignment" Center
+     "Vertical Alignment" Center
+    }
+   }
+  }
+ }
+}

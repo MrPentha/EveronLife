@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{DC9B6578B73B7828}Configs/Modded/EL_Spawnpoints.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

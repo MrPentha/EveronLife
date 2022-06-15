@@ -1,0 +1,334 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  HorizontalLayoutWidgetClass "{598757DDA7D10622}" {
+   Name "TitleLayout"
+   Slot FrameWidgetSlot "{598339686E9E2101}" {
+    Anchor 0.096 0.081 0.904 0.146
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX 0
+    OffsetRight 0
+    SizeY 0
+    OffsetBottom 0
+   }
+   "Z Order" 1
+   {
+    TextWidgetClass "{598757DDA7D10620}" {
+     Name "TitleText"
+     Slot LayoutSlot "{5983396863959BE9}" {
+      SizeMode Fill
+     }
+     Text "Character Creation"
+     "Font Size" 65
+     "Min Font Size" 65
+     "Horizontal Alignment" Center
+     "Vertical Alignment" Center
+     FontProperties FontProperties "{5983396EBE84537C}" {
+      Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+     }
+    }
+   }
+  }
+  VerticalLayoutWidgetClass "{598757D3888E3CB9}" {
+   Name "PropertyLayout0"
+   Slot FrameWidgetSlot "{598757D3888E3C09}" {
+    Anchor 0.704 0.281 0.904 0.63
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX 0
+    OffsetRight 0
+    SizeY 0
+    OffsetBottom 0
+   }
+   "Z Order" 1
+   "Fill Origin" Center
+   {
+    PanelWidgetClass "{5989404C99E43FD3}" {
+     Name "PropertyLayoutFrame"
+     Slot LayoutSlot "{5989404C99E43FB5}" {
+      SizeMode Fill
+     }
+     Color 0.502 0 0 1
+     style rover_sim_colorable
+     {
+      VerticalLayoutWidgetClass "{5989404CFF1D7B0A}" {
+       Name "PropertyLayout1"
+       Slot FrameWidgetSlot "{5989404CF9758FD5}" {
+        Anchor 0 0 1 0.996
+        PositionX 0
+        OffsetLeft 0
+        PositionY 0
+        OffsetTop 0
+        SizeX 0
+        OffsetRight 0
+        SizeY 0
+        OffsetBottom 0
+       }
+       {
+        TextWidgetClass "{5989404C7FC46E9B}" {
+         Name "BodyText"
+         Slot LayoutSlot "{5989404C78838400}" {
+          Padding 0 10 0 10
+         }
+         Color 0.561 0.071 0.071 1
+         Text "Body"
+         "Font Size" 30
+         "Min Font Size" 30
+         "Horizontal Alignment" Center
+         "Vertical Alignment" Center
+         FontProperties FontProperties "{599286F753FAF433}" {
+          Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+         }
+        }
+        HorizontalLayoutWidgetClass "{598757D5D247831D}" {
+         Name "BodyLayout"
+         Slot LayoutSlot "{5989404CDC17C4E2}" {
+          SizeMode Fill
+         }
+         Color 1 0 0 1
+         {
+          ButtonWidgetClass "{598757D5D247831E}" {
+           Name "BodySwitchBackward"
+           Slot LayoutSlot "{598757D48B0947D8}" {
+            HorizontalAlign 1
+            VerticalAlign 1
+            SizeMode Fill
+           }
+           components {
+            SCR_ButtonComponent "{5988BD3AAB66ADC3}" {
+            }
+           }
+           {
+            ImageWidgetClass "{598757D5D247831F}" {
+             Name "Image0"
+             Slot ButtonWidgetSlot "{598757D41E093FCC}" {
+             }
+             Color 0.418 0.418 0.418 1
+             Texture "{8BE038B4F91BCC99}UI/Textures/WidgetLibrary/ArrowButton.edds"
+             Image ""
+             "Blend Mode" Opaque
+             "Flip Horizontally" 1
+            }
+           }
+          }
+          TextWidgetClass "{598757D5D2478318}" {
+           Name "SelectedBodyText"
+           Slot LayoutSlot "{598757D48B094762}" {
+            HorizontalAlign 1
+            VerticalAlign 1
+            SizeMode Fill
+           }
+           Color 0.561 0.071 0.071 1
+           Text "0"
+          }
+          ButtonWidgetClass "{598757D5D2478319}" {
+           Name "BodySwitchForward"
+           Slot LayoutSlot "{598757D48B0946FA}" {
+            HorizontalAlign 1
+            VerticalAlign 1
+            SizeMode Fill
+           }
+           components {
+            SCR_ButtonComponent "{5988988CE176ADE2}" {
+            }
+           }
+           {
+            ImageWidgetClass "{598757D5D247831A}" {
+             Name "Image0"
+             Slot ButtonWidgetSlot "{598757D41E093FCC}" {
+             }
+             Color 0.418 0.418 0.418 1
+             Texture "{8BE038B4F91BCC99}UI/Textures/WidgetLibrary/ArrowButton.edds"
+             Image ""
+             "Blend Mode" Opaque
+            }
+           }
+          }
+         }
+        }
+        TextWidgetClass "{5989404DAAB1C631}" {
+         Name "Text1"
+         Slot LayoutSlot "{5989404C78838400}" {
+          Padding 0 10 0 10
+         }
+         Color 0.561 0.071 0.071 1
+         Text "First Name"
+         "Font Size" 30
+         "Min Font Size" 30
+         "Horizontal Alignment" Center
+         "Vertical Alignment" Center
+         FontProperties FontProperties "{599286F759C03EA6}" {
+          Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+         }
+        }
+        HorizontalLayoutWidgetClass "{5988BD5412D98C1D}" {
+         Name "HorizontalLayout0"
+         Slot LayoutSlot "{5989404CDC17C4C6}" {
+          SizeMode Fill
+         }
+         Color 1 0 0 1
+         {
+          EditBoxWidgetClass "{5988BD55C8E3C4ED}" {
+           Name "EditBox0"
+           Slot LayoutSlot "{5988BD5557FD8313}" {
+            Padding 0 10 0 10
+            SizeMode Fill
+           }
+           "Z Order" 2
+           Color 0.561 0.071 0.071 1
+           components {
+            EditBoxFilterComponent "{5988BD5518783DA0}" {
+             m_iCharacterLimit 20
+             m_bNumbers 0
+            }
+           }
+           "Use placeholder text" 1
+           "Placeholder color" 0.561 0.071 0.071 1
+           "Placeholder text" "Your Character Name..."
+           "Horizontal alignment" Center
+          }
+         }
+        }
+        TextWidgetClass "{599286F79776D5CF}" {
+         Name "Text0"
+         Slot LayoutSlot "{5989404C78838400}" {
+          Padding 0 10 0 10
+         }
+         Color 0.561 0.071 0.071 1
+         Text "Last Name"
+         "Font Size" 30
+         "Min Font Size" 30
+         "Horizontal Alignment" Center
+         "Vertical Alignment" Center
+         FontProperties FontProperties "{599286F740C406E6}" {
+          Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+         }
+        }
+        HorizontalLayoutWidgetClass "{599286F79776D470}" {
+         Name "HorizontalLayout1"
+         Slot LayoutSlot "{5989404CDC17C4C6}" {
+          SizeMode Fill
+         }
+         Color 1 0 0 1
+         {
+          EditBoxWidgetClass "{599286F79776D477}" {
+           Name "EditBox0"
+           Slot LayoutSlot "{5988BD5557FD8313}" {
+            Padding 0 10 0 10
+            SizeMode Fill
+           }
+           "Z Order" 2
+           Color 0.561 0.071 0.071 1
+           components {
+            EditBoxFilterComponent "{5988BD5518783DA0}" {
+             m_iCharacterLimit 20
+             m_bNumbers 0
+            }
+           }
+           "Use placeholder text" 1
+           "Placeholder color" 0.561 0.071 0.071 1
+           "Placeholder text" "Your Character Name..."
+           "Horizontal alignment" Center
+          }
+         }
+        }
+        ButtonWidgetClass "{598757C8A9C55207}" {
+         Name "SaveButton"
+         Slot LayoutSlot "{598757C8A9C55188}" {
+          SizeMode Fill
+         }
+         Color 0 0 0 1
+         components {
+          SCR_ButtonComponent "{598757C9628243F2}" {
+           m_BackgroundHovered 0 1 0.246 1
+          }
+         }
+         {
+          TextWidgetClass "{598757C8B8B67936}" {
+           Name "Text0"
+           Slot ButtonWidgetSlot "{598757C8B8B678BA}" {
+            Padding 0 10 0 10
+           }
+           Color 0.561 0.071 0.071 1
+           Text "Save"
+           "Font Size" 35
+           "Min Font Size" 35
+           "Horizontal Alignment" Center
+           "Vertical Alignment" Center
+           FontProperties FontProperties "{5988BD20502B37F6}" {
+            Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+            Bold 1
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  ImageWidgetClass "{598757DC10C3F307}" {
+   Name "BackgroundImage"
+   Slot FrameWidgetSlot "{598304BBAA0912D3}" {
+    Anchor 0 0 1 1
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX 0
+    OffsetRight 0
+    SizeY 0
+    OffsetBottom 0
+   }
+   Texture "{75455009AFED376B}UI/Textures/Workshop/AddonThumbnails/workshop_loading_UI.edds"
+   Image ""
+   Size 1920 1080
+  }
+  VerticalLayoutWidgetClass "{598757D7D3326799}" {
+   Name "VerticalLayout1"
+   Slot FrameWidgetSlot "{598757D7D3326708}" {
+    Anchor 0.096 0.193 0.904 0.926
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX 0
+    OffsetRight 0
+    SizeY 0
+    OffsetBottom 0
+   }
+   "Fill Origin" Center
+   {
+    HorizontalLayoutWidgetClass "{598757D7F93A15E8}" {
+     Name "HorizontalLayout0"
+     Slot LayoutSlot "{598757D7D087F14D}" {
+      SizeMode Fill
+     }
+     {
+      ItemPreviewWidgetClass "{598757CFCC23ED4C}" {
+       Name "ItemPreview0"
+       Slot LayoutSlot "{598757CFCC23EBCA}" {
+        SizeMode Fill
+       }
+       components {
+        SCR_LoadoutPreviewComponent "{599121066291BAD8}" {
+        }
+       }
+       refresh 255
+       "Use Engine Scale" 0
+       Filter Bilinear
+       Format "HDR High"
+       "Blend mode" Blend
+      }
+     }
+    }
+   }
+  }
+ }
+}

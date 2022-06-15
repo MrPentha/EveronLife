@@ -20,7 +20,15 @@ SCR_ChimeraCharacter : "{7A9EE19AB67B298B}Prefabs/Characters/Factions/INDFOR/FIA
    }
   }
   CharacterIdentityComponent "{5584CBC63E092DBC}" {
-   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{04F4D8CBA36A534B}Prefabs/Characters/Heads/Head_Black_02.et"
+     Body "{6253161EEAB88EAB}Prefabs/Characters/Basebody/CharacterBasebody_Black_02.et"
+    }
+    SoundIdentity SoundIdentity "{56E6D945D8F79290}" {
+     VoiceID 50
+    }
+   }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
@@ -28,7 +36,7 @@ SCR_ChimeraCharacter : "{7A9EE19AB67B298B}Prefabs/Characters/Factions/INDFOR/FIA
      PrefabsToSpawn +{
      }
     }
-    ItemsInitConfigurationItem "{59695CB9178ECE02}" {
+    ItemsInitConfigurationItem "{5988BD154AC8105B}" {
      TargetStorage "Prefabs/Characters/Uniforms/Jacket_M70.et"
      TargetPurpose 64
      PrefabsToSpawn {

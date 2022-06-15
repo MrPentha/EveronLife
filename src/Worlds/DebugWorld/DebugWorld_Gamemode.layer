@@ -1,2 +1,50 @@
 EL_GameModeRoleplay GameMode_Roleplay1 : "{03913608C59017A3}Prefabs/MP/Modes/Roleplay/GameMode_Roleplay.et" {
+ components {
+  EL_CharacterPresetConfigComponent "{5990A2EBCA3D605E}" {
+   m_sConfigPath "{E79FE7D9803D7F02}Configs/Modded/EL_CharacterPresets.conf"
+  }
+  EL_SpawnpointConfigComponent "{5996F8E785BCD616}" {
+   m_sConfigPath "{DC9B6578B73B7828}Configs/Modded/EL_Spawnpoints.conf"
+  }
+  SCR_AutomaticRespawnHandlerComponent "{59750B6CAB80839A}" {
+   Enabled 0
+   m_iForcedFaction -1
+   m_iForcedLoadout -1
+  }
+  SCR_RespawnBriefingComponent "{597F0A31E0F1B77F}" {
+  }
+  SCR_RespawnMenuHandlerComponent "{597F0A30E2B8905C}" {
+  }
+ }
+ Flags 0
+ {
+  SCR_MapEntity MapEntity_Everon1 : "{E1B88C66BF6CA1F9}Prefabs/World/Game/MapEntity_Everon.et" {
+   coords 0 0 0
+  }
+  SCR_FactionManager "598757CE9D8B8716" {
+   ID "59751433747FB465"
+   Factions {
+    SCR_Faction "{5964988803994914}" {
+     "Identity of soldiers" FactionIdentity "{5964988803997269}" {
+     }
+    }
+   }
+   m_bCanChangeFactionsPlayable 1
+  }
+  SCR_LoadoutManager {
+   ID "59751433747F93AE"
+   m_aPlayerLoadouts {
+    SCR_FactionPlayerLoadout "{597F0A307D7B4054}" {
+     m_sLoadoutResource "{1E1884289029DCA4}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_M9_Empty.et"
+     m_sLoadoutImage "{0F62C575785D87CD}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_Unarmed.edds"
+     m_sAffiliatedFaction "US"
+    }
+   }
+  }
+  ItemPreviewManagerEntity ItemPreviewManager1 : "{9F18C476AB860F3B}Prefabs/World/Game/ItemPreviewManager.et" {
+   coords 0 0 0
+   DefaultRenderAttributes PreviewRenderAttributes "{5991409754C50DB8}" {
+   }
+  }
+ }
 }

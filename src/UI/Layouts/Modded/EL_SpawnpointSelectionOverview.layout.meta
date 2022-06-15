@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{FA02E1BC902CD2D4}UI/Layouts/Modded/EL_SpawnpointSelectionOverview.layout"
+ Configurations {
+  LayoutResourceClass PC {
+  }
+  LayoutResourceClass XBOX_ONE : PC {
+  }
+  LayoutResourceClass XBOX_SERIES : PC {
+  }
+  LayoutResourceClass PS4 : PC {
+  }
+  LayoutResourceClass HEADLESS : PC {
+  }
+ }
+}

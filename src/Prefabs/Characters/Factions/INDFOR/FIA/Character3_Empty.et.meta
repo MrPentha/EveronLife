@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{15E859201EE0639A}Prefabs/Characters/Factions/INDFOR/FIA/Character3_Empty.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
